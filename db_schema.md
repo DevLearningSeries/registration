@@ -49,20 +49,21 @@
 	}
 	}
 ```
-* Event
-* These are your details
-* This is the amount you owe
-* Bank details to pay
+* Event: new registration
+	* Notification:
+		* These are your details
+		* This is the amount you owe
+		* Bank details to pay
 
-* Event
-* Form
-	* Entry id
-	* Payment made: amount
-* Event
-	* Create account
-	* Send notification. Payment received
-	* Account details
-	* Enrollment details (PDF)
+* Event: update payment information (payment received)
+	* Form
+		* Entry id
+		* Payment made: amount
+	* Event
+		* Create account
+		* Send notification. Payment received
+			* Account details
+			* Enrollment details (PDF)
 
 ```json
 {
@@ -74,7 +75,6 @@
 		}
 }
 ```
-
 
 ```json
 {
