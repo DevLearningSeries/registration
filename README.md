@@ -8,3 +8,5 @@
     - Notified of new registration
     - Update registration details if payment made
     - Send enrollment information to guardian/parent registering
+
+## [Documentation](https://github.com/DevLearningSeries/registration/wiki)
